@@ -92,26 +92,15 @@ a {
     text-shadow: 5px 5px gainsboro;
 }
 
-.articals:hover {
-    color: black;
-    font-size: 30px;
-}
-
-.contact:hover {
-    color: black;
-    font-size: 30px;
-}
-
-.articals a {
-    font-size: 25px;
-    display: inline;
-}
-
-.contact {
-    font-size: 25px;
-    text-shadow: none !important;
-}
-
 #contact {
     background: linear-gradient(#60eb 0%, #27ae 100%);
+}
+
+#img1 {
+    transition: transform .2s; 
+    border: 5px solid #AAAAAA;
+}
+
+#img1:hover {
+    transform: scale(0.9)
 }
